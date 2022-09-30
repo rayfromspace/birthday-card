@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family: 'Happy Monkey', cursive;
+    font-family: Happy Monkey, cursive;
     background: linear-gradient(#f7efc0, #34a2a1 );
     color: #a8d3b7;
     
@@ -97,3 +97,9 @@ h4 {
 a {
     color: #f3caa8;
 }
+
+@media (orientation: portrait) {
+    body {
+        margin : 10 auto 10;
+}}
+    
